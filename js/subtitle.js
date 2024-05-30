@@ -1,7 +1,6 @@
 function getRandomGreeting() {
   var greetings = [
     "Beep boop! Are you a robot?",
-    "Did you know I have a discord server?",
     "How many sides does a circle have?",
     "You can read btw",
     "Made you look!",
