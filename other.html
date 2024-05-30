@@ -1,106 +1,138 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Other - Umbrion</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      text-align: center;
-      background-color: #121212;
-      color: white;
-    }
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Other - Umbrion</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #121212;
+            color: white;
+        }
 
-   .center {
-      display: inline-block;
-      margin: 0 auto;
-    }
+       .center {
+            display: inline-block;
+            margin: 0 auto;
+        }
 
-    input {
-      margin-bottom: 1em;
-      padding: 0.5em;
-      width: 80%;
-      max-width: 300px;
-    }
+        input {
+            margin-bottom: 1em;
+            padding: 0.5em;
+            width: 80%;
+            max-width: 300px;
+        }
 
-   .submit-button {
-      background-color: #121212;
-      color: white;
-      border: none;
-      outline: none;
-      padding: 0.5em 1em;
-      cursor: pointer;
-    }
+       .submit-button {
+            background-color: #121212;
+            color: white;
+            border: none;
+            outline: none;
+            padding: 0.5em 1em;
+            cursor: pointer;
+        }
 
-    #video-holder-holder {
-      margin-top: 2em;
-    }
+        #video-holder-holder {
+            margin-top: 2em;
+        }
 
-    #video-holder {
-      display: none;
-    }
+        #video-holder {
+            display: none;
+        }
 
-    #video {
-      width: 80%;
-      max-width: 560px;
-      height: 315px;
-    }
-  </style>
+        #video {
+            width: 80%;
+            max-width: 560px;
+            height: 315px;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        li {
+            margin-bottom: 1em;
+        }
+
+        a {
+            color: white;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
 </head>
 <body>
-  <div class="text-center">
-    <h1>Other</h1>
-    <h2>Youtube Unblocker:</h2>
-    <input id="url" type="text" placeholder="Enter video URL" required>
-    <button style="background: #3c3c3c" id="submit" class="submit-button">Watch</button>
-  </div>
-  <br>
-  <div id="instructions" class="center">
-    <hr style="width: 25%!important">
-    <h3>About</h3>
-    <p>Use EclipsarGames YouTube Unblocker to get around blocks, and watch YouTube without ads and (mostly) tracker free! Just paste in the link and click Watch!</p>
-    <h3>Not Working?</h3>
-    <p>Make sure there isn't anything funky at the end of the link, just the video ID!</p>
-  </div>
-  <div id="video-holder-holder">
-    <div id="video-holder" class="center" style="display: none;">
-      <hr>
-      <iframe id="video" src="" frameborder="0" scrolling="no" allowfullscreen="" webkitallowfullscreen=""></iframe>
+    <div class="text-center">
+        <h1>Other</h1>
+        <h2>Youtube Unblocker:</h2>
+        <input id="url" type="text" placeholder="Enter video URL" required>
+        <button style="background: #3c3c3c" id="submit" class="submit-button">Watch</button>
     </div>
-  </div>
+    <br>
+    <div id="instructions" class="center">
+        <hr style="width: 25%!important">
+        <h3>About</h3>
+        <p>Use EclipsarGames YouTube Unblocker to get around blocks, and watch YouTube without ads and (mostly) tracker free! Just paste in the link and click Watch!</p>
+        <h3>Not Working?</h3>
+        <p>Make sure there isn't anything funky at the end of the link, just the video ID!</p>
+    </div>
+    <div id="video-holder-holder">
+        <div id="video-holder" class="center" style="display: none;">
+            <hr>
+            <video id="video" src="movie.mp4" muted></video>
+            <script>
+                var video = document.getElementById("video");
+
+                video.onloadedmetadata = function() {
+                    video.play();
+                };
+            </script>
+        </div>
+    </div>
+    <h2 id="movies">MOVIES</h2>
+    <p>NOTE: EclipsarGames does not own or distribute these movies. Use at your own risk.</p>
+    <ul>
+        <li><a href="https://drive.google.com/file/d/14syVLzUYsgbO4pjEOGEvq4FHFMJwFn1h/view?usp=sharing">The Batman (2022)</a></li>
+        <li><a href="https://drive.google.com/file/d/162M1QypBTzjajOi-MqkMz0BdY1IAZN8N/view?usp=sharing">Batman Begins (2005)</a></li>
+        <li><a href="https://drive.google.com/file/d/1JsicZRkskyhysSL7pnrwzdXBaUNPKliK/view?usp=sharing">The Dark Knight(2008)</a></li>
+        <li><a href="https://drive.google.com/file/d/1Ph96wp6Um-i73jNYHxvMknjbhYzl89EU/view?usp=sharing">The Dark Knight Rises (2012)</a></li>
+        <li><a href="https://drive.google.com/file/d/1fIF26ugv_a7_YEDcFMKmF2oLTE9T-OA5/view?usp=sharing">Avengers (2012)</a></li>
+        <li><a href="https://drive.google.com/file/d/1dBJqzUbgjxK0XoCsUGSfzF9Z6kWhWNBP/view?usp=sharing">Avengers: Age of Ultron (2014)</a></li>
+        <li><a href="https://drive.google.com/file/d/1BsfceoAMnel10oCnw0rIKxrOG4H_JWn4/view?usp=sharing">Avengers: Infinity War (2018)</a></li>
+        <li>Avengers: Endgame (2019) Coming in the near future!</li>
+        <li><a href="https://drive.google.com/file/d/0B-uFeCO4yCFIV09lcEdSNHptT2c/view?usp=sharing&resourcekey=0-dw10bsyEZaC-069eF9QTAw">21 Jump Street</a></li>
+        <li><a href="https://drive.google.com/file/d/0B-uFeCO4yCFISTFmNlE3akNDbU0/view?usp=sharing&resourcekey=0-RNIEk2RiGAR76Qv_ACNU8g">A Dog's Purpose (2017)</a></li>
+        <li><a href="https://drive.google.com/file/d/0B95Tai8Smi2wZXNFQ29vT19RVkE/view?usp=sharing&resourcekey=0-PmCtCEW7-_z7GmU8JvAheg">Alien (1979)</a></li>
+        <li><a href="https://drive.google.com/file/d/0Bxpj_oRibJ5kZTlmNTIzRjU4ekU/view?usp=sharing&resourcekey=0-kBSIucVemO3llLrafH-XRQ">Alien Vs. Predator (2004)</a></li>
+        <li><a href="https://drive.google.com/file/d/0B4MqvPThrYNjZE9sX2wwbkRZbXc/view?usp=sharing&resourcekey=0-6UabtX9aRzTD-5F1bOF9sw">Alien Vs. Predator Requiem (2007)</a></li>
+        <li><a href="https://drive.google.com/file/d/0B-k5_BUVjeQSczRvN1d0VHBFcTg/view?usp=sharing&resourcekey=0-org-X_RxCuw2XYnZnVjv8w">Assassin's Creed (2017)</a></li>
+        <li><a href="https://drive.google.com/file/d/0B-uFeCO4yCFIa3hNRDc5eVlBSjQ/view?usp=sharing&resourcekey=0-rOslYKb17fIDWtuiy8P2ag">Forrest Gump (1994)</a></li>
+        <li><a href="https://drive.google.com/file/d/0B-uFeCO4yCFIZXNnLUg3cVdiU3M/view?usp=sharing&resourcekey=0-s1hwC6vvc_w-Q2CRrpP08g">Guardian's of the Galaxy Vol.2 (2017)</a></li>
+        <li><a href="https://drive.google.com/file/d/0By5b6VRVheoWUmNTcEJiOXdJdjQ/view?usp=sharing&resourcekey=0-S6FZYivo19MI9Z4h-ZRrOw">King Kong (2005)</a></li>
+        <li><a href="https://drive.google.com/file/d/0B5QJgBuViQvxMExwdFd4LXp1cjQ/view?usp=sharing&resourcekey=0--AymX6yocYDSRtZ5jQFm1g">Kung Fu Panda</a></li>
+        <li><a href="https://drive.google.com/file/d/0B_CAII75-qyKRHF6QjhFUXlPUEk/view?usp=sharing&resourcekey=0-mFoLhNdJHpwlPVLJRMnB_A">Pacific Rim (2013)</a></li>
+        <li><a href="https://drive.google.com/file/d/0B5QJgBuViQv0dTJDcVdDcUtUWFE/view?usp=sharing&resourcekey=0-wEbhIWyIeBsPsLHvhMhfBg">Predator (1987)</a></li>
+        <li><a href="https://drive.google.com/file/d/0B95Tai8Smi2wcUF0RjA4RVU2R1U/view?usp=sharing&resourcekey=0-mWyWdIiRNrFcwuWCdJcMpg">Resident Evil: Apocalypse (2004)</a></li>
+        <li><a href="https://drive.google.com/file/d/0B_CAII75-qyKTjUVzU3WVpvRFU/view?usp=sharing&resourcekey=0-PuHMiUaWcBbxmgTpDpCdVg">Rogue One: A Star Wars Story (2016)</a></li>
+        <li><a href="https://drive.google.com/file/d/0B_CAII75-qyKWXQ4RVhIYVU4dVU/view?usp=sharing&resourcekey=0-eOIyRdBvMbCv-CbIvIeBNvQ">Shrek 2 (2004)</a></li>
+        <li><a href="https://drive.google.com/file/d/0B5QJgBuViQv2SzFJOV9UUzlQSFE/view?usp=sharing&resourcekey=0-IcBMnCdJcMiRB-cBbxmXo3A">The Chronicles of Narnia: The Lion, the Witch and the Wardrobe (2005)</a></li>
+        <li><a href="https://drive.google.com/file/d/0B95Tai8Smi2wQzBWaEhxSnBpTUk/view?usp=sharing&resourcekey=0-PsLHsMtOwBmB-cW-uqcTpQ">The Lego Movie (2014)</a></li>
+        <li><a href="https://drive.google.com/file/d/0B95Tai8Smi2wSjRiUWdFdTdIY3c/view?usp=sharing&resourcekey=0-vA-bIvRBhTdMpLNtFyTi-1Q">The Simpsons Movie (2007)</a></li>
+        <li><a href="https://drive.google.com/file/d/0B5QJgBuViQv4RzJmSzBPbHdFY3c/view?usp=sharing&resourcekey=0-hMhWBvSbCwbCbIqmfBTaUA">The Tick (2006)</a></li>
+        <li><a href="https://drive.google.com/file/d/0B-uFeCO4yCFIcjhDdHBHMkFHWUk/view?usp=sharing&resourcekey=0-bhIWy-nfyPqCdJcCiUaDcQ">The Toxic Avenger (1985)</a></li>
+    </ul>
   <p style="text-align: center; margin-top: 2em;">
-    <a href="index.html" style="text-decoration: none;">
-      <button style="background-color: #121212; color: white; border: none; outline: none;">
-        Home→
-      </button>
-    </a>
-  </p>
-  <script>
-    const base = "https://www.youtube-nocookie.com/embed/";
-    const end = "?wmode=transparent&amp;iv_load_policy=3&amp;autoplay=1&amp;html5=1&amp;showinfo=0&amp;rel=0&amp;modestbranding=1&amp;playsinline=0&amp;theme=light";
-    const strip_timestamps = /\?t=\d+/;
-    var submit = document.getElementById('submit');
-    var url = document.getElementById('url');
-    var video_holder;
-    var video_holder_holder = document.getElementById('video-holder-holder');
-    var link;
-    var id;
-    submit.onclick = () => {
-      const urlPattern = /^(http:\/\/www\.|https:\/\/www\.|http:\/\/|https:\/\/)?youtube\.com\/watch\?v=.{11}$/;
-      if (!urlPattern.test(url.value)) {
-        alert('Invalid URL. Please enter a valid YouTube URL.');
-        return;
-      }
-      if(document.getElementById('instructions')) {
-        document.getElementById('instructions').remove();
-      }
-      video_holder = document.getElementById('video-holder');
-      video_holder.style.display = "block";
-      link = url.value;
-      id = link.replace("https://www.youtube.com/watch?v=", "");
-      document.getElementById('video').src = base + id + end;
-    }
-  </script>
+        <a href="index.html" style="text-decoration: none;">
+            <button style="background-color: #121212; color: white; border: none; outline: none;">
+                Home→
+            </button>
+        </a>
+    </p>
 </body>
 </html>
