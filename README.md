@@ -1,5 +1,5 @@
 # *"Umbrion"* by *EclipsarGames*
-The Go-To Lightweight Unblocked Games Website.
+The Go-To Lightweight Static Unblocked Games Website.
 ## Features
 1. Lightweight
 2. Tons of Games
