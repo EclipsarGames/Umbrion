@@ -2,7 +2,7 @@
 The Go-To Lightweight Static Unblocked Games Website.
 ## Features
 1. Lightweight
-2. Tons of Games
+2. 110+ Games
 3. Links to movies
 4. Working about:blank cloaker
 ## Forking/Cloning
