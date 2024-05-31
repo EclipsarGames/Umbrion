@@ -6,7 +6,7 @@ The Go-To Lightweight Unblocked Games Website.
 3. Links to movies
 4. Working about:blank cloaker
 ## Forking/Cloning
-You can fork/clone Umbrion to make your own with proper crediting.
+You may fork/clone Umbrion to make your own with proper crediting.
 ## Deploy to a cloud service
 [![Deploy on Railway](https://binbashbanana.github.io/deploy-buttons/buttons/remade/railway.svg)](https://railway.app/new/template?template=https://github.com/EclipsarGames/Umbrion)
 [![Deploy to Cyclic](https://binbashbanana.github.io/deploy-buttons/buttons/remade/cyclic.svg)](https://app.cyclic.sh/api/app/deploy/EclipsarGames/Umbrion)
