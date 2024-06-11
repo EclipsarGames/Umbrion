@@ -14,5 +14,7 @@ You may fork/clone Umbrion to make your own with proper crediting.
 [![Run on Replit](https://binbashbanana.github.io/deploy-buttons/buttons/remade/replit.svg)](https://replit.com/github/EclipsarGames/Umbrion)
 [![Remix on Glitch](https://binbashbanana.github.io/deploy-buttons/buttons/remade/glitch.svg)](https://glitch.com/edit/#!/import/github/EclipsarGames/Umbrion)
 [![Deploy to Vercel](https://binbashbanana.github.io/deploy-buttons/buttons/remade/vercel.svg)](https://vercel.com/new/clone?repository-url=https://github.com/EclipsarGames/Umbrion)
+## Discord:
+[EclipsarHub](https://discord.gg/Y8rX3hkP3B)
 ## Credit
 Games: 3kh0
