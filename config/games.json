@@ -541,7 +541,9 @@
   },
   {
     "link": "projects/slowroads/index.html",
+    "imgSrc": "projects/slowroads/blank.png"
     "title": "slowroads"
+  },
   {
     "link": "projects/sm64/index.html",
     "imgSrc": "projects/sm64/logo.png",
