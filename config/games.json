@@ -539,6 +539,11 @@
     "imgSrc": "projects/slope/slope4.jpeg",
     "title": "Slope"
   },
+   {
+    "link": "projects/slowroads/index.html",
+    "imgSrc": "projects/slowroads/logo.png",
+    "title": "Slow Roads"
+  },
   {
     "link": "projects/sm64/index.html",
     "imgSrc": "projects/sm64/logo.png",
